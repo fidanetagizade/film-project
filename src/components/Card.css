@@ -1,14 +1,19 @@
 .movie-card {
   display: flex; 
-  padding: 15px;
+  padding: 1.43vw;
   width: 100%;
   gap: 20px; 
 }
 
 .movie-img {
   width: 40%;
+<<<<<<< HEAD
   height: 40%;
   border-radius: 8px; 
+=======
+  height: auto;
+  border-radius: 0.76vw; 
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -17,18 +22,43 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
   font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
   gap: 10px;
+=======
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 2.29vw;
+  gap: 0.96vw;
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)
 }
 
 .fav-btn{
     width:5vw;
-    height:4vh;
-    border:1px solid  #7a007a;
+    height:4.14vw;
+    border:0.1vw solid  #7a007a;
     color:white;
     background-color: #7a007a;
-    border-radius:7px;
-    font-size:17px;
+    border-radius:0.67vw;
+    font-size:0.67vw;
 }
 
+<<<<<<< HEAD
+=======
+
+.fav-btn.disabled-btn {
+  background-color: #cccccc ;
+  color: #666666;
+  border-color: #cccccc; 
+  cursor: not-allowed; 
+}
+
+.movie-img.is-placeholder {
+  height: 40%; 
+}
+
+
+
+
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)

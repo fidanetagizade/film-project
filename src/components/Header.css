@@ -1,9 +1,14 @@
 .header-title {
   text-align: center;
-  padding: 15px 0;
+  padding: 1.43vw 0;
   margin: 0;
   font-family: "Arial Black", "Arial Bold", sans-serif;
   background: linear-gradient(90deg, #770992, #ffa500);
   font-weight: 900;
   color: white;
+<<<<<<< HEAD
+=======
+  font-size:4.78vw;
+
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)
 }

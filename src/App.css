@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: #ffffff; 
+<<<<<<< HEAD
   border: 2px solid #e5bafc; 
   border-radius: 20px;       
   padding: 25px;
@@ -10,3 +11,44 @@
   max-width: 45%;        
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Altdan qəşəng yüngül kölgə */
 }
+=======
+  border: 0.19vw solid #e5bafc; 
+  border-radius: 1.91vw;       
+  padding: 2.39vw;
+  margin-top: 1.5vw;
+  margin-left: 2vw;          
+  width: 45%;                
+  
+}
+
+
+.movies-loading-box {
+    width: 100%;
+    min-height: 38.24vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc; 
+    border:0.19vw solid #770992; 
+    border-radius: 1.15vw;
+}
+
+
+
+.movies-loading-box p{
+   
+    font-size: 2.39vw;
+    font-weight: bold;
+    color: #f323ef; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.movie-not-found-box{
+  font-size: 1.91vw;
+  color:rgb(181, 8, 8);
+  font-weight: bold;
+
+}
+
+
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)

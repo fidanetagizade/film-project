@@ -1,0 +1,96 @@
+<<<<<<< HEAD
+=======
+.favorite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33vw;
+    min-height: 23vw;
+    padding: 2.39vw;
+    background-color: #ffffff;
+    border: 0.1vw solid #e5bafc;
+    border-radius: 1.53vw;
+    box-sizing: border-box;
+    gap:1.15vw;
+    margin-top: 1.5vw;
+    font-size: 2.1vw;
+
+}
+
+.favorite-list {
+    max-height: 12vw;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.72vw;
+    margin-bottom: auto;
+}
+
+.favorite-input {
+    font-family: 'Times New Roman', Times, serif;
+    width: 20vw;
+    height: 1.5vw;
+    display: flex;
+    align-self: center;
+    border-radius: 0.67vw;
+    border: 0.1vw solid rgba(158, 157, 157, 0.953);
+    font-size: 1.53vw;
+    padding-left: 0.5vw;
+    justify-content: space-between;
+}
+
+
+.add-btn,
+.look-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 10vw;
+    height: 2vw;
+    font-size: 1.53vw;
+    background-color: rgb(134, 133, 133);
+    border: 0.1vw solid rgb(189, 188, 188);
+    color: black;
+    cursor: not-allowed;
+    border-radius: 0.67vw;
+ 
+}
+
+
+.add-btn.active,
+.look-btn.active {
+    background-color: #7a007a;
+    color: white;
+    border: 0.1vw solid #7a007a;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.29vw;
+    height: 2.29vw;
+    cursor: pointer;
+    font-size: 1.15vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.96vw;
+    flex-shrink: 0;
+    
+}
+.remove-btn:hover {
+  background-color: #cc0000;
+ }
+
+
+.favorite-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+>>>>>>> 361a417 (style: convert hardcoded px units to fluid vw and vh for responsiveness)

@@ -1,0 +1,105 @@
+.lists-page-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  width: 100%;
+  min-height: 100vh;
+}
+
+.movie-header-banner {
+  text-align: center;
+  padding: 1.43vw 0;        
+  margin: 0;
+  width: 100%; 
+  height:4.3vw;           
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(90deg, #770992, #ffa500);
+  font-weight: 900;
+  color: white;
+  font-size:3.06vw;
+}
+.lists-wrapper {
+    width: 90%;               
+    max-width:95.6vw;        
+    margin: 2.87vw auto;      
+    border:0.19vw solid #7a007a; 
+    border-radius: 1.91vw;       
+    padding: 2.87vw;             
+    display: flex;
+    flex-direction: column;   
+    gap: 2.39vw;                
+    background-color: #ffffff;
+}
+
+.list-card-box {
+    background-color: #ffffff;    
+    border: 0.19vw solid #7a007a;    
+    border-radius: 1.91vw;          
+    padding:2.87vw;               
+    margin-bottom: 2.87vw;          
+    width: 100%;                  
+    box-sizing: border-box;      
+    position: relative;           
+}
+
+.list-card-box button:not(.imdb-btn) { 
+    position: absolute;
+    top: 1.43vw;
+    right:1.43vw;
+    background-color: #f55718;
+    border: 0.1vw solid #ccc;
+    border-radius: 0.38vw;
+    cursor: pointer;
+    padding: 0.19vw 0.57vw;
+
+}
+
+
+
+.list-card-title {
+    text-align: center;       
+    font-size: 2.87vw;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 1.91vw;
+}
+
+
+.list-movie-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.96vw 0;
+    border-bottom: 0.1 vw solid #f1f2f6; 
+    width: 100%;
+    font-size:2.29vw;
+    font-weight: 600;
+}
+
+
+.imdb-btn {
+    background-color: #f5c518;      
+    color: #000000;
+    border: 0.1vw solid #dbb212;
+    padding: 0.48vw 1.15vw;
+    font-weight: bold;
+    border-radius: 0.38vw;
+    cursor: pointer;
+    font-size:1.91vw;
+}
+
+.movies-back-btn{
+    font-size:1.91vw;
+    background-color:#7a007a;
+    color:white;
+    border:0.1vw solid #7a007a;
+    border-radius:0.76vw;
+    width:6vw;
+    height:2.5vw;
+
+}
+
+.notice-text{
+    font-size:1.91vw;
+}

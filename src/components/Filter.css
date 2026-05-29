@@ -14,19 +14,19 @@ body {
 .filter-input {
   width: 16vw;
   height: 2vw;
-  border: 2px solid rgb(193, 190, 190);
+  border: 0.19vw solid rgb(193, 190, 190);
   border-radius: 0.8vw;
-  padding-left: 10px;
-  font-size: 17px;
+  padding-left: 0.96vw;
+  font-size: 1.63vw;
 }
 .filter-btn {
   width: 7vw;
   height: 2.2vw;
-  border: 2px solid #7a007a;
+  border: 0.19vw solid #7a007a;
   border-radius: 0.8vw;
   background-color: #940494;
   color: white;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 1.72vw;
   cursor:pointer;
 }
